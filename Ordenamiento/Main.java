@@ -6,7 +6,7 @@ public class Main {
     int[] arrToRadixSort = { 351, 33, 42, 110, 14, 919, 27, 1144, 216, 311, 0 };
     int[] arrToMergeSort = { 351, 33, 42, 110, 14, 919, 27, 1144, 216, 311, 0 };
     int[] arrToBubbleSort = { 351, 33, 42, 110, 14, 919, 27, 1144, 216, 311, 0 };
-   
+    
     System.out.println("Array ordenado con QuickSort:");
     System.out.println("Antes: " + Arrays.toString(arrToQuickSort));
     int[] arrQuickSort = QuickSort.quickSort(arrToQuickSort);
